@@ -2,9 +2,10 @@
     list-style: none;
     text-decoration: none;
     font-family: sans-serif;
-    
+    box-sizing: border-box;
     
 }
+
 body{
     background-color: #F7F5F5;
     margin: -8px;
