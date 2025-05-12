@@ -1,0 +1,212 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- base.css -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <!-- header.css -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main/main.css" />
+    <!-- aside -->
+     <link rel="stylesheet" href="./css/./main/aside.css" />
+
+     <!-- footer.css -->
+      <link rel="stylesheet" href="./css/footer.css" />
+    <title>Tournament-Web</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header_logo">
+        <img src="./img/header_logo.png" alt="" />
+      </div>
+      <nav class="header_nav">
+        <div class="header_nav_links">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Login</a>
+          <a href="">Register</a>
+        </div>
+        <div class="header_nav_search">
+          <div class="header_nav_search_icon">
+            <input type="text" name="" id="" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div class="header_nav_search_icon">
+        </div>
+      </nav>
+    </header>
+    <!-- Main_Contents -->
+     <div class="main_container">
+      <!-- aside -->
+      <div class="aside-spacer"></div>
+         <div class="aside_container">
+                <div class="aside_icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="aside_links">
+                    <ul class="aside_links_list">
+                        <li><a href="">Thông tin giải đấu</a></li>
+                        <li><a href="">Thông tin câu lạc bộ</a></li>
+                        <li><a href="">Thông tin cầu thủ</a></li>
+                        <li><a href="">Lịch thi đấu</a></li>
+                        <li><a href="">Kết quả thi đấu</a></li>
+                        <li><a href="">Bảng xếp hạng</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="section_container">
+          <!-- <div class="list_banner">
+            <div class="banner">
+              <img  id="imgs" src="./img/banner_img.png" alt="">
+              <img id="imgs" src="./img/banner2.png" alt="">
+              <img id="imgs" src="./img/banner3.png" alt="">
+              <img id="imgs" src="./img/banner4.png" alt="">
+            </div>
+          </div> -->
+          <div class="list_banner">
+            <div class="banner">
+              
+              <img id="imgs" src="./img/banner2.png" alt="">
+              <img id="imgs" src="./img/banner3.png" alt="">
+              <img id="imgs" src="./img/banner4.png" alt="">
+            </div>
+            <div class="btns">
+                <div class="btn-left btn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div class="btn-right btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+            <div class="index-images">
+                <div class="index-item index-item-0 active"></div>
+                <div class="index-item index-item-1"></div>
+                <div class="index-item index-item-2"></div>
+                <div class="index-item index-item-3"></div>
+            </div>
+        </div>
+          <div class="section_list_tournament">
+            <div class="tiltle_tournamnet">
+              <h1>Giải đấu hiện có</h1>
+            </div>
+            <div class="list_tournament_info">
+              <ul class="list_tournament">
+                <li class="item_tournament_info">
+                  <a href="">
+                  <img class="item_tournament_info_img" src="./img/logo_Tournament.png" alt="">
+                  <h4 class="item_tournament_info_text">Giải bóng đá vô địch quốc gia Tây Ban Nha</h4>
+                </a></li>
+                <li class="item_tournament_info">
+                  <a href="">
+                    <img class="item_tournament_info_img" src="./img/logo_Tournament2.png" alt="">
+                    <h4 class="item_tournament_info_text">Giải bóng đá vô địch quốc gia Italia</h4>
+                  </a>
+                </li>
+                <li class="item_tournament_info">
+                  <a href="">
+                    <img class="item_tournament_info_img" src="./img/logo_Tournament3.png" alt="">
+                    <h4 class="item_tournament_info_text">Giải bóng đá vô địch quốc gia Đức</h4>
+                  </a>
+                </li>
+                <li class="item_tournament_info">
+                  <a href="">
+                    <img class="item_tournament_info_img" src="./img/logo_Tournament4.png" alt="">
+                    <h4 class="item_tournament_info_text">Giải bóng đá vô địch quốc gia Pháp</h4>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="button_view_all_tournament">
+              <button>Xem thêm giải đấu...</button>
+            </div> 
+            <hr>
+            <div class="news_container">
+              <div class="news_tiltile">
+                <h1>Tin tức</h1>
+              </div>
+              <div class="new_list">
+                <ul class="new_list_item">
+                  <li class="new_list_item_info">
+                    <a class="new_list_item_info_link" href="">
+                    <img src="./img/news1.png" alt="">
+                    <div class="new_list_item_info_text">
+                      <h4>Tebas: 'Perez giành giật quyền lực, thay vì làm bóng đá'</h4>
+                      <p>Trưởng ban tổ chức La Liga Javier Tebas chỉ trích Chủ tịch Real về loạt hành động gây tranh cãi trước trận chung kết Cup Nhà Vua.
+                        "Đây không còn là bóng đá, mà là giành giật quyền lực", Tebas viết về Chủ tịch Real, Florentino Perez trên mạng xã hội X hôm 25/4.</p>
+                    </div>
+                  </a>
+                  </li>
+                  <li class="new_list_item_info">
+                    <a class="new_list_item_info_link" href="">
+                    <img src="./img/news2.png" alt="">
+                    <div class="new_list_item_info_text">
+                      <h4>Tứ đại anh hào bán kết Cúp C1: Barca lợi thế tiếp Inter, Arsenal đấu PSG & bài toán Merino</h4>
+                      <p >Barcelona, Arsenal đều có những lợi thế nhất định trước thềm bán kết lượt đi Cúp C1 khi họ lần lượt tiếp các đối thủ Inter Milan và PSG.</p>
+                    </div>
+                  </a>
+                  </li>
+                  <li class="new_list_item_info">
+                    <a class="new_list_item_info_link" href="">
+                    <img src="./img/news3.png" alt="">
+                    <div class="new_list_item_info_text">
+                      <h4>Yamal xứng danh "Messi 2.0", hóa ác mộng mới của Real Madrid</h4>
+                      <p>Có lẽ chẳng cầu thủ nào ở tuổi 17 lại đủ khả năng hành hạ "ông kẹ" Real Madrid hết lần này tới lần khác như Lamine..</p>
+                    </div>
+                  </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    <!-- Footer -->
+     <footer>
+        <div class="container_footer">
+          <div class="footer_list_container">
+            <ul class="footer_list">
+              <li><a href=""><h3 class="title_footer">LIÊN HỆ</h3></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-location-dot"></i><span class="footer_item">186 Cao Lỗ, Quận 8</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-phone"></i><span class="footer_item">0866126736</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-envelope"></i><span class="footer_item">premierleague@gmail.com</span></a></li>
+            </ul>
+            <ul class="footer_list">
+              <li><a href=""><h3 class="title_footer">DỊCH VỤ</h3></a></li>
+              <li><a href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Tạo Giải Bóng Đá</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Lập Lịch Thi Đấu</span></a></li>
+            </ul>
+            <ul class="footer_list">
+              <li>
+                <a href="">
+                  <h3 class="title_footer">DANH MỤC</h3>
+                </a>
+              </li>
+              <li><a href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Trang Chủ</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Giới Thiệu</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Giao Diện Mẫu</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Dự Án</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Blog</span></a></li>
+              <li><a  href=""><i class="icon_footer_fa fa-solid fa-check"></i><span class="footer_item">Liên Hệ</span></a></li>
+            </ul>
+          </div>
+          <div class="footer_social">
+            <img src="./img/banner_footer.png" alt="">
+          </div>
+        </div>
+        <div class="footer_copyright">   
+          <img src="./img/logo_end.png" alt="">
+          
+        </div>
+     </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
