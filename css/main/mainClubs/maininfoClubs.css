@@ -1,0 +1,54 @@
+.main_container {
+    width: 100%;
+    margin: 0;
+    background-color: #F7F5F5;
+    position: relative;
+    top: 120px;
+    z-index: 90;
+    display: flex;
+}
+
+.section_container {
+    width: 85%;
+    margin-left: 15%;
+    overflow: hidden;
+    min-height: calc(100vh - 120px);
+    position: relative;
+    z-index: 95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section_container h1{
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+}
+.container_item_clubs{
+    width: 80%;
+    /* height: 400px; */
+    background-color: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.item_clubs {
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+.item_clubs a{
+    color:#000;
+}
+.item_clubs img{
+    height: 200px;
+    width: 250px;
+}

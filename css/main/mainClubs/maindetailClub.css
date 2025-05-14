@@ -1,0 +1,22 @@
+.main_container {
+    width: 100%;
+    margin: 0;
+    background-color: #F7F5F5;
+    position: relative;
+    top: 120px;
+    z-index: 90;
+    display: flex;
+}
+
+.section_container {
+    width: 85%;
+    margin-left: 15%;
+    overflow: hidden;
+    min-height: calc(100vh - 120px);
+    position: relative;
+    z-index: 95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

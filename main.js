@@ -5,6 +5,8 @@ const btnLeft = document.querySelector('.btn-left')
 const btnRight = document.querySelector('.btn-right')
 const length = imgs.length
 let current = 0
+
+
 const handleChangeSlide = () => {
     if (current == length - 1) {
         current = 0
@@ -49,3 +51,4 @@ btnLeft.addEventListener('click', () => {
 })
 
 console.log(handleChangeSlide)
+
