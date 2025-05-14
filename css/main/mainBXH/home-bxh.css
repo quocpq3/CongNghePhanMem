@@ -1,0 +1,59 @@
+.main_container {
+  width: 100%;
+  margin: 0;
+  background-color: #f7f5f5;
+  position: relative;
+  top: 120px;
+  z-index: 90;
+  display: flex;
+}
+.section_container {
+  width: 85%;
+  margin-left: 15%;
+  overflow: hidden;
+  min-height: calc(100vh - 120px);
+  position: relative;
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section_container .title .container_title {
+  background-color: #ccc;
+  width: 100%;
+  height: 270px;
+  border-radius: 30px;
+}
+.section_container .title .container_title img {
+  float: left;
+  width: 400px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.section_container .title .container_title h3 {
+  margin: 0;
+  padding: 10px;
+  padding-top: 20px;
+}
+.section_container .title .container_title p {
+  padding: 0px;
+  margin: 0;
+  opacity: 0.5;
+}
+.section_container .title .selection {
+  display: flex;
+  justify-content: center;
+  align-items: ce;
+  margin-top: 20px;
+}
+.section_container .title .selection .selection_item {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.section_container .title .selection .selection_item.active {
+  background-color: #000;
+}
