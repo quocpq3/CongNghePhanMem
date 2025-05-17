@@ -21,6 +21,9 @@
     justify-content: center;
 
 }
+select{
+    margin-left: 180px;
+}
 .match-results-filter {
             margin: 20px 0 30px 0;
             text-align: left;
